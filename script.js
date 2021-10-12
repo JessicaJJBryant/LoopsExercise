@@ -32,3 +32,26 @@ while (harryPotterMovies <= 8) {
 console.log(harryPotterMovies-1);
 
 
+// 5a
+const hogwartsHouses = [
+    "Gryffindor",
+    "Hufflepuff", 
+    "Ravenclaw",
+    "Slytherin"
+];
+// 5b
+for (house of hogwartsHouses) {
+    for (i of house) {
+        console.log(i);
+    }
+}
+
+// 6a
+const quote = [
+    "Yer",
+    "A",
+    "Wizard",
+    "Harry"
+];
+// 6b I know this isn't a loop, but it gets the result.
+console.log(quote.join(" "));
